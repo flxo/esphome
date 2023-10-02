@@ -302,7 +302,7 @@ impl<'a> AuthenticatedDevice<'a> {
 					break;
 				}
 				Some(_) | None => {
-					panic!("unexpected reply: {:?}", header)
+					panic!("unexpected reply: {header:?}")
 				}
 			}
 		}
